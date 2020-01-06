@@ -1,0 +1,95 @@
+html {
+    background-color: white;
+    }
+body {
+    margin:0;padding:0;
+}  
+
+.box {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:absolute;
+    width:200px;
+    height:400px;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    border: 2px solid black;
+    padding: 10px 40px;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    font-size: 20px;
+    border-radius: 10%;
+    background-color: white;
+    color:black;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+
+.box:hover {
+    box-shadow: 0 0 30px rgba(0,0,0,0.8);
+}
+
+form a {color:black}
+
+input[type="text"],input[type="password"],.button7 {
+    border-radius: 15px;
+    border:2px solid #30D5C8;
+    width: 50%;
+    height: 30px;
+    text-align: center;	
+    outline: none;
+    background-color: white;
+           }
+
+input[type="submit"] {
+    border-radius: 15px;
+    border:2px solid #30D5C8;
+    width: 50%;
+    height: 30px;
+    text-align: center;	
+    background-color: white;	
+}
+
+input[type="text"]:hover,input[type="password"]:hover,.button7:hover {
+    transition: 0.5s;
+    border:2px solid #900020;
+    width: 100%;
+}
+ 
+input[type="submit"]:hover {
+    transition: 0.5s;
+    border:2px solid #900020;
+    width: 50%;
+}
+
+input[type="submit"]:active {
+    transition: 0s;
+    border:2px solid #900020;
+    width: 50%;
+transform: scale(1.2);
+}
+
+input[type="text"]:focus,input[type="password"]:focus {
+    transition: 0.25s;
+    border:2px solid #900020;
+    width: 100%;
+    background-color: rgb(253, 239, 214);
+}
+
+#SelectLogin, #SelectRegistration{
+    width: 90px;
+}
+
+.button8:active input[type="text"]{
+    display:none;
+
+}
+
+.button7 {
+    text-decoration: none;
+    border:2px solid #00BFFF;
+    padding: 5px;
+}
+
+
